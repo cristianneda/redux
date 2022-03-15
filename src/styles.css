@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.check-icon {
+    color: white;
+}
+.check-icon :hover {
+    color: #14f859;
+    transition: 500ms;
+}
+.edit-icon {
+    color:aliceblue;
+}
+.edit-icon :hover{
+    color: blue;
+    transition: 500ms;
+}
+.delete-icon {
+    color:#ffffff;
+}
+.delete-icon :hover{
+    color:crimson;
+    transition: 500ms;
+}
+.icons {
+    display: flex;
+}
+.todo-input {
+   border-radius: 0.5rem; 
+   padding :3px;
+   margin :3px;
+   justify-content: center;
+
+}
+.complete {
+    opacity: 0.4;
+    transition: all 0.5s ease;
+  }
